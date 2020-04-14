@@ -1,0 +1,19 @@
+<!--Use the 'open -a "Google Chrome" transform.html' terminal command to open this file in the Google Chrome web browser from the command line.-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			// Triggers an alert when the "Alert" button is clicked
+			function transformText() {
+				console.log('hello');
+				document.querySelector('h1').innerHTML = 'Goodbye, World!';
+			}
+		</script>
+		<title>CS50: WEB PROGRAMMING</title>
+	</head>
+	<body>
+		<h1>Hello, World!</h1>
+		<button onclick="transformText()">Alert</button>
+	</body>
+</html>
